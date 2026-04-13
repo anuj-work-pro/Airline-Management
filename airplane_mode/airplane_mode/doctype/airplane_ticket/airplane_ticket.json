@@ -47,12 +47,14 @@
    "reqd": 1
   },
   {
+   "fetch_from": "source_airport.code",
    "fieldname": "source_airport_code",
    "fieldtype": "Data",
    "label": "Source Airport Code",
    "reqd": 1
   },
   {
+   "fetch_from": "destination_airport.code",
    "fieldname": "destination_airport_code",
    "fieldtype": "Data",
    "label": "Destination Airport Code",
@@ -62,7 +64,7 @@
    "fieldname": "flight",
    "fieldtype": "Link",
    "label": "Flight",
-   "options": "Air_plane",
+   "options": "Airplane",
    "reqd": 1
   },
   {
@@ -126,7 +128,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-04-11 13:26:03.166761",
+ "modified": "2026-04-13 12:11:46.578387",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Ticket",
