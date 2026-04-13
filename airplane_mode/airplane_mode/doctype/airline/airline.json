@@ -43,11 +43,11 @@
  "links": [
   {
    "custom": 1,
-   "link_doctype": "Air_plane",
+   "link_doctype": "Airplane",
    "link_fieldname": "airline"
   }
  ],
- "modified": "2026-04-11 13:35:19.630986",
+ "modified": "2026-04-13 13:03:37.699055",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airline",
